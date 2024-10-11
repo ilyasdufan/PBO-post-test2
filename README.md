@@ -42,10 +42,10 @@ Terdapat penerapan best practice dari Final Class, Final Property, dan Final Met
 ![image](https://github.com/user-attachments/assets/ec38f843-a880-489b-8799-88d1f42c9a9e)
 ![image](https://github.com/user-attachments/assets/25a10177-5546-4274-9bce-bc635aa48190)
 ![image](https://github.com/user-attachments/assets/d9957065-506f-4ca1-9aa5-1cd07aef0a86)
+![image](https://github.com/user-attachments/assets/486f781e-ccd3-4f68-92dc-78889bc6028e)
+![image](https://github.com/user-attachments/assets/14035af1-26df-4593-9686-3c847c9accff)
+![image](https://github.com/user-attachments/assets/f4d1899b-dea2-49a0-a324-13e8378501a4)
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/4edb3761-1db1-4ed8-82fd-e23ed69ae7d6)
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/d08df48d-c06d-4815-9d96-52d80154dd1f)
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/3e41bd76-0b19-4dc6-8325-6e1adbe26434)
 
 ### Class Parent 
 Tidak terdapat penerapan **best practice dari Final Class, Final Property, dan Final Method** karena class tersebut akan di turunkan ke class child. Kelas Pegawai adalah sebuah kelas abstrak **(Fitur Abstraction)** yang berperan sebagai kerangka dasar untuk kelas-kelas turunan yang akan mengimplementasikan metodenya. Kelas Pegawai menyediakan dua variabel anggota (nama dan id) dan juga metode-metode getter dan setter untuk mengakses dan mengubah nilai-nilai variabel ini. Konsep ini memungkinkan kita untuk menggeneralisasi perilaku yang berkaitan dengan pegawai dalam kode program seperti dokter dan perawat. Dapat mengimplementasikan metode tampilkanInformasi() sesuai dengan jenis pegawai yang bersangkutan, sehingga dapat menampilkan informasi pegawai tersebut secara spesifik sesuai dengan jenisnya.
