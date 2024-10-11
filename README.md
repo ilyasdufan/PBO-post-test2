@@ -50,125 +50,122 @@ Terdapat penerapan best practice dari Final Class, Final Property, dan Final Met
 ### Class Parent 
 Tidak terdapat penerapan **best practice dari Final Class, Final Property, dan Final Method** karena class tersebut akan di turunkan ke class child. Kelas Pegawai adalah sebuah kelas abstrak **(Fitur Abstraction)** yang berperan sebagai kerangka dasar untuk kelas-kelas turunan yang akan mengimplementasikan metodenya. Kelas Pegawai menyediakan dua variabel anggota (nama dan id) dan juga metode-metode getter dan setter untuk mengakses dan mengubah nilai-nilai variabel ini. Konsep ini memungkinkan kita untuk menggeneralisasi perilaku yang berkaitan dengan pegawai dalam kode program seperti dokter dan perawat. Dapat mengimplementasikan metode tampilkanInformasi() sesuai dengan jenis pegawai yang bersangkutan, sehingga dapat menampilkan informasi pegawai tersebut secara spesifik sesuai dengan jenisnya.
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/8c42d59a-905d-4478-9196-04ad4f813018)
+![image](https://github.com/user-attachments/assets/25fd4481-32ef-47ad-bfd1-7b0ea3594544)
 
 ## Class Child
 Terdapat penerapan best practice dari Final Class, Final Property, dan Final Method.
 ### Dokter 
 Kelas Dokter adalah implementasi kelas turunan yang mewarisi dari kelas abstrak Pegawai **(Fitur Inheritance)**. Memiliki variabel anggota "spesialisasi" yang digunakan untuk menyimpan informasi tentang spesialisasi dokter. Kelas "Dokter" memiliki konstruktor yang menerima tiga parameter: "nama", "id", dan "spesialisasi". Dalam konstruktor tersebut, menggunakan "super(nama, id)" untuk memanggil konstruktor kelas "Pegawai". Ini untuk menginisialisasi atribut "nama" dan "id", yang bersifat umum untuk semua pegawai, sementara atribut "spesialisasi" yang khusus untuk dokter diinisialisasi dengan nilai yang diberikan dalam konstruktor. Menggunakan **Fitur Overriding/Override** tampilkanInformasi(). Dalam implementasi ini, metode tampilkanInformasi() mencetak ID, nama, dan spesialisasi dokter ke layar. 
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/1a47350e-5a4b-4d64-ba29-5664a939544c)
+![image](https://github.com/user-attachments/assets/25c9e7b9-aa39-4771-836c-cdee13d0c659)
 
 ### Perawat 
 Kelas Perawat adalah implementasi kelas turunan yang mewarisi dari kelas abstrak Pegawai **(Fitur Inheritance)**. Memiliki variabel anggota "shift" yang digunakan untuk menyimpan informasi tentang shift kerja perawat. Terdapat konstruktor yang digunakan untuk menginisialisasi objek Perawat. Konstruktor ini menerima tiga parameter: nama, id, dan shift. Konstruktor ini memanggil konstruktor kelas Pegawai menggunakan super(nama, id) untuk menginisialisasi nilai nama dan id yang bersifat umum untuk semua pegawai. Menggunakan **Fitur Overriding/Override** tampilkanInformasi(). Dalam implementasi ini, metode tampilkanInformasi() mencetak ID, nama, dan shift kerja perawat ke layar. 
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/f3a3b021-b601-499d-85f3-b537a39f5b4d)
+![image](https://github.com/user-attachments/assets/01ec3542-cdbd-4382-8cc5-81d99528dbc8)
 
 ### Pasien
 Kelas Pasien berfungsi sebagai representasi objek pasien. Ini tidak terkait dengan kelas Pegawai seperti Dokter atau Perawat, jadi tidak ada warisan terhadap metode abstrak tampilkanInformasi() dari Pegawai. Memiliki tiga variabel anggota, yaitu nama, Keluhan, dan id. Terdapat konstruktor yang digunakan untuk menginisialisasi objek Pasien. Konstruktor ini menerima tiga parameter: nama, id, dan Keluhan. Konstruktor ini menginisialisasi atribut-atribut pasien dengan nilai yang sesuai sesuai dengan parameter yang diberikan saat pembuatan objek Pasien.
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/1cffaa10-7256-4f3e-a239-0763fc3fcf85)
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/ab01716b-23cd-42e9-8516-7bd3fa2363e3)
+
+![image](https://github.com/user-attachments/assets/cf089f63-54b0-4b0e-8f0e-5c9afa5b25f9)
+![image](https://github.com/user-attachments/assets/d3299c3b-b9c1-424f-8358-3bc167394530)
 
 
 ## Output
 **Tampilan Awal**
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/72bb0647-cb25-41cf-847c-8c988d19941c)
+![image](https://github.com/user-attachments/assets/ddc0629a-579d-4da0-92ae-3829258944b9)
 
 ### CRUD 
 ### CREATE
 **1. Dokter**
 
-Gambar dibawah ini  merupakan hasil dari tambah dokter (opsi 1) yang mana nama nya Sandrina dan spesialisnya adalah Orthopedi.
+Gambar dibawah ini  merupakan hasil dari tambah dokter (opsi 1).
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/3c6bfe6e-7aee-4d7c-b15d-706c34d9c58d)
+
+![image](https://github.com/user-attachments/assets/78a79c61-e408-45ff-858d-e2f946bcc1eb)
+
 
 **2. Perawat**
 
 Gambar dibawah ini merupakan hasil dari tambah perawat (opsi 2) yang mana nama nya Ikhsan dan shift nya adalah Pagi.
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/bd4e30de-2db9-4955-b16d-c0e5182bcad1)
+
+![image](https://github.com/user-attachments/assets/a5afa754-5a11-485a-acc1-f295035bc861)
+
 
 **3. Pasien**
 
-Gambar dibawah ini merupakan hasil dari tambah pasien (opsi 3) yang mana nama nya Tia dan keluhannya adalah Batuk.
-
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/06befa96-d90b-4100-a7fb-54c0d6a5a6d4)
+Gambar dibawah ini merupakan hasil dari tambah pasien (opsi 3).
 
 
-### READ
-**1. Pegawai (Dokter, Perawat)**
-
-Gambar dibawah ini menampilkan hasil dari create pada opsi 1 dan 2 tadi bisa diliat outputnya sama dengan yang diatas.
-
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/b29276cd-da30-4a8b-af10-fb0d275f858d)
-
-**2. Pasien**
-
-Gambar dibawah ini menampilkan hasil dari create pada opsi 3 tadi bisa diliat outputnya sama dengan yang diatas.
-
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/f5dc3286-77af-4c35-8865-f0f33e103a16)
+![image](https://github.com/user-attachments/assets/e4aea2e0-e159-47fe-9c2f-15474856fae1)
 
 ### UPDATE 
 **1. Update Dokter**
 
-Gambar dibawah ini merupakan hasil terbaru dari pengeditan nama dokter yang sebelumnya Sandrina dan berspesialisasi Orthopedi berubah menjadi dokter Aulia spesialis Gigi.
+Gambar dibawah ini merupakan hasil terbaru dari pengeditan nama dokter.
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/eb0a3004-ce5e-479c-a41b-139b378ccd48)
+
+![image](https://github.com/user-attachments/assets/c82d787a-ad6b-4f71-a073-c758a54bbcd1)
 
 **2. Update Perawat**
 
-Gambar dibawah ini merupakan hasil terbaru dari pengeditan nama perawat yang sebelumnya Ikhsan dan mempunyai shift Pagi berubah menjadi perawat Iklam dan mempunyai shift Malam.
+Gambar dibawah ini merupakan hasil terbaru dari pengeditan nama perawat.
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/cb018358-0e56-46df-9216-bf8587170440)
+![image](https://github.com/user-attachments/assets/032d78c7-c62c-4e7e-8299-dd7d79d49e5b)
+
 
 **3. Update Pasien**
 
-Gambar dibawah ini merupakan hasil terbaru dari pengeditan nama pasien yang sebelumnya Tia dan mempunyai keluhan Batuk berubah menjadi pasien Sagita dan mempunyai keluhan Demam.
+Gambar dibawah ini merupakan hasil terbaru dari pengeditan nama pasien.
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/fa13dfd8-bc3a-4a08-a9e8-2a7ad898a705)
+![image](https://github.com/user-attachments/assets/825ea684-6b9d-4187-b86f-ae0d64e379c3)
 
 ### DELETE
 **1. Hapus Dokter**
 
 Gambar dibawah ini merupakan output jika data dokter yang telah dimasukkan di awal tadi dihapus.
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/c7e3b0fc-1f6b-4355-b363-60f9d2e07158)
+![image](https://github.com/user-attachments/assets/0997ac5b-c596-4fd3-b1ef-60b39e8e9257)
 
 **2. Hapus Perawat**
 
 Gambar dibawah ini merupakan output jika data perawat yang telah dimasukkan di awal tadi dihapus.
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/abc364b2-eca2-4b7b-b351-a8fe59e5c2e9)
+![image](https://github.com/user-attachments/assets/4ba9bec8-6508-4520-99f4-a3d4ec18c294)
 
 **3. Hapus Pasien**
 
 Gambar dibawah ini merupakan output jika data pasien yang telah dimasukkan di awal tadi dihapus.
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/68f10e64-8008-4725-933c-c8194faa6e7d)
+![image](https://github.com/user-attachments/assets/b9bdb63b-4cb1-4db5-b4df-3815deea480c)
 
 ### ARRAY LIST KOSONG
 **1. Pegawai**
 
 Gambar dibawah adalah output jika ArrayList Pegawai masih belum terisi oleh objek
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/a9f77d0b-621e-4f95-a628-b03da616e11b)
+![image](https://github.com/user-attachments/assets/7c28eeef-d9c8-4095-8b2a-4c862c6229f5)
 
 **2. Pasien**
 
 Gambar dibawah adalah output jika ArrayList Pasien masih belum terisi oleh objek
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/d06ffb85-2181-43a3-8413-cd50500b2500)
+
+![image](https://github.com/user-attachments/assets/4e27da11-37f2-4a10-9c2e-d9d22d4c1822)
+
 
 ### SALAH MASUKKAN (INPUT)
 
 Gambar dibawah adalah output jika user salah menginputkan angka ke dalam halaman utama 
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/8a2f37fd-1a94-4dce-9ed5-76d07487b371)
+![image](https://github.com/user-attachments/assets/ff120a19-e941-4a9e-9078-2308c217369a)
 
 ### EXIT 
 
 Gambar dibawah adalah jika user memilih opsi 8 yakni keluar dari program
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/86ab92ed-1330-4b6b-b97a-dadbd4c839cc)
+![image](https://github.com/user-attachments/assets/6e029bb3-c6b1-49cd-ba72-50df5ec0a39c)
+
