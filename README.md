@@ -35,8 +35,8 @@ Terdapat penerapan best practice dari Final Class, Final Property, dan Final Met
 
 **5. Panggilan Method**
 - Bergantung pada apa yang pengguna pilih, metod seperti CRUD tambahDokter(), tambahPerawat(), dll yang akan dipanggil.
-  
-!image(https://github.com/user-attachments/assets/c4179f6f-bdb0-452c-b38d-bbd876fedac0)
+
+![image](https://github.com/user-attachments/assets/be37324a-1e17-42d8-a586-9cea848c7ebe)
 
 ![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/88cbf44f-262c-48cb-85d6-643458806167)
 ![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/5c65bdee-3264-4110-9e79-251256ae0d92)
