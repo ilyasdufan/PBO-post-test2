@@ -39,8 +39,8 @@ Terdapat penerapan best practice dari Final Class, Final Property, dan Final Met
 ![image](https://github.com/user-attachments/assets/be37324a-1e17-42d8-a586-9cea848c7ebe)
 ![image](https://github.com/user-attachments/assets/8ed68f5d-c89d-4a0a-85ac-99171f089840)
 ![image](https://github.com/user-attachments/assets/be9faa16-70b0-4766-b422-e95a1d05238a)
+![image](https://github.com/user-attachments/assets/ec38f843-a880-489b-8799-88d1f42c9a9e)
 
-![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/d20786e4-831f-4802-ba7d-3579b780b739)
 ![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/5d220b53-7ca4-47cb-8dc1-161e1534d57e)
 ![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/2bd8e4e4-3467-4fd7-9e46-9b6154dc1d0e)
 ![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/4edb3761-1db1-4ed8-82fd-e23ed69ae7d6)
