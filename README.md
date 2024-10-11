@@ -36,15 +36,16 @@ Terdapat penerapan best practice dari Final Class, Final Property, dan Final Met
 **5. Panggilan Method**
 - Bergantung pada apa yang pengguna pilih, metod seperti CRUD tambahDokter(), tambahPerawat(), dll yang akan dipanggil.
   
-![image](https://github.com/IlyasDufan/pbo-post-test-2/assets/121924124/d33010d8-e2cb-4086-8823-84da8c5b0d85)
-![image](https://github.com/IlyasDufan/pbo-post-test-2/assets/121924124/88cbf44f-262c-48cb-85d6-643458806167)
-![image](https://github.com/Ilyasdufan/pbo-post-test-2/assets/121924124/5c65bdee-3264-4110-9e79-251256ae0d92)
-![image](https://github.com/IlyasDufan/pbo-post-test-2/assets/121924124/d20786e4-831f-4802-ba7d-3579b780b739)
-![image](https://github.com/IlyasDufan/pbo-post-test-2/assets/121924124/5d220b53-7ca4-47cb-8dc1-161e1534d57e)
-![image](https://github.com/Ilyasdufan/pbo-post-test-2/assets/121924124/2bd8e4e4-3467-4fd7-9e46-9b6154dc1d0e)
-![image](https://github.com/IlyasDufan/pbo-post-test-2/assets/121924124/4edb3761-1db1-4ed8-82fd-e23ed69ae7d6)
-![image](https://github.com/IlyasDufan/pbo-post-test-2/assets/121924124/d08df48d-c06d-4815-9d96-52d80154dd1f)
-![image](https://github.com/IlyasDufan/pbo-post-test-2/assets/121924124/3e41bd76-0b19-4dc6-8325-6e1adbe26434)
+![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/d33010d8-e2cb-4086-8823-84da8c5b0d85)
+![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/88cbf44f-262c-48cb-85d6-643458806167)
+![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/5c65bdee-3264-4110-9e79-251256ae0d92)
+![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/d20786e4-831f-4802-ba7d-3579b780b739)
+![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/5d220b53-7ca4-47cb-8dc1-161e1534d57e)
+![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/2bd8e4e4-3467-4fd7-9e46-9b6154dc1d0e)
+![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/4edb3761-1db1-4ed8-82fd-e23ed69ae7d6)
+![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/d08df48d-c06d-4815-9d96-52d80154dd1f)
+![image](https://github.com/SandrinaAulia/pbo-post-test-2/assets/121924124/3e41bd76-0b19-4dc6-8325-6e1adbe26434)
+
 
 ### Class Parent 
 Tidak terdapat penerapan **best practice dari Final Class, Final Property, dan Final Method** karena class tersebut akan di turunkan ke class child. Kelas Pegawai adalah sebuah kelas abstrak **(Fitur Abstraction)** yang berperan sebagai kerangka dasar untuk kelas-kelas turunan yang akan mengimplementasikan metodenya. Kelas Pegawai menyediakan dua variabel anggota (nama dan id) dan juga metode-metode getter dan setter untuk mengakses dan mengubah nilai-nilai variabel ini. Konsep ini memungkinkan kita untuk menggeneralisasi perilaku yang berkaitan dengan pegawai dalam kode program seperti dokter dan perawat. Dapat mengimplementasikan metode tampilkanInformasi() sesuai dengan jenis pegawai yang bersangkutan, sehingga dapat menampilkan informasi pegawai tersebut secara spesifik sesuai dengan jenisnya.
